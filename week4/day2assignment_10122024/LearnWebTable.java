@@ -32,7 +32,7 @@ public class LearnWebTable {
 				WebElement webtable= driver.findElement(By.xpath("//div[@id='divTrainsList']/table[1]"));
 				
 				//to locate web table
-				List<WebElement> maintable = webtable.findElements(By.xpath("//div[@id='divTrainsList']/table[1]"));
+				//List<WebElement> maintable = webtable.findElements(By.xpath("//div[@id='divTrainsList']/table[1]"));
 				//to locate the train name column
 				
 				List<WebElement> trainnames = webtable.findElements(By.xpath("//div[@id='divTrainsList']/table[1]/tbody/tr/td[2]"));
